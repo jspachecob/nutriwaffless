@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutriwaffles</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nutri<strong>waffles</strong></h1>
+        <nav>
+            <ul>
+                <li> <a href="">Inicio</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Productos</a></li>
+            </ul>
+        </nav>
+        <div class="iconMenu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+
+    <section class="inicio">
+        <div class="contenido-inicio">
+            <div>
+                <h1>Conoce nuevos sabores en <strong>Nutriwaffles</strong> </h1>
+                <p>Nutriwaffles es un servicio que ofrece productos nutritivos, teniendo como plato principal los
+                    waffles
+                    integrales, los cuales serán ofrecidos de diferentes presentaciones y sabores.</p>
+            </div>
+
+            <img class="s" src="src/img/waffleDelinicio2.png" alt="">
+
+        </div>
+
+
+    </section>
+
+    <main>
+
+    </main>
+
+
+
+
+
+    <script>
+        menuDesplegable = document.querySelector(".iconMenu");
+        menuDesplegable.onclick = function () {
+            desplegar = document.querySelector("nav");
+            desplegar.classList.toggle("desplegar")
+        }
+    </script>
+</body>
+
+</html>
